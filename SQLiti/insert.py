@@ -4,7 +4,8 @@ cursor = conn.cursor()
 cursor.execute(""" INSERT INTO  users1 VALUES
                    ('Ivan', '1234', 'ivan95@mail.ru'),
                    ('Petr', '4321', 'petrov97@mail.ru'),
-                   ('Sidr', '0012', 'sidr85@mail.ru')
+                   ('Sidr', '0012', 'sidr85@mail.ru'),
+                   ('Elena', '02547', 'elena99@mail.ru')
                    """
               )
 cursor.execute(""" INSERT INTO  users2 VALUES
